@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[user]
+	email = jakub.glapa@gmail.com
+	name = Jakub Glapa
+[remote "origin"]
+	url = git@github.com:jglapa/g335-oneToOne.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
